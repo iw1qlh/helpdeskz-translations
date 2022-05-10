@@ -1,6 +1,8 @@
-<?php
+ï»¿<?php
 
 // override core en language system validation or define your own en language validation message
+// Per abilitare modificare il file App.php - $negotiateLocale $supportedLocales
+
 return [
     'kb' => [
         'title' => 'Knowledge Base',
@@ -8,7 +10,7 @@ return [
         'howCanWeHelpYou' => 'Come posso aiutarti?',
         'search' => 'Cerca nella knowledge base',
         'moreTopics' => 'Altri argomenti',
-        'mostPopular' => 'Gli articoli più popolari',
+        'mostPopular' => 'Gli articoli piÃ¹ popolari',
         'newest' => 'Articoli nuovi',
         'postedOn' => 'Pubblicato il %date%',
         'searchResults' => 'Risultato ricerca',
@@ -19,16 +21,16 @@ return [
         'title' => 'Accesso a %site_name%',
         'button' => 'Accesso',
         'forgotPassword' => 'Password dimenticata',
-        'forgotDescription' => 'Inserire il tuo  indirizzo email registrato e premere Submit. Riceverai a breve una email con un link per azzerare la tua password.',
+        'forgotDescription' => 'Inserisci l\'indirizzo email che hai registrato e premi Invio. Riceverai a breve una email con un link per azzerare la tua password.',
         'passwordSent' => 'Abbiamo mandato una email con la nuova password all\'indirizzo fornito.',
     ],
     'submitTicket' => [
         'title' => 'Invia una richiesta di supporto',
         'menu' => 'Invia un ticket',
-        'selectDepartment' => 'Se non trovi una soluzione al tuo problema, puoi inviare un ticket selezionando il dipartimento sotto.',
+        'selectDepartment' => 'Se non trovi una soluzione al tuo problema, puoi inviare un ticket selezionando il settore specifico.',
         'generalInformation' => 'Informazioni generali',
-        'requestReceived' => 'La tua richiesta è stata ricevuta.',
-        'requestReceivedDescription' => 'Abbiamo ricevuto la tua richiesta e il nostro team risponderà a breve. Puoi accedere all\'helpdesk per esaminare lo stato della tua richiesta, o verificare la posta elettronica per ulteriori aggiornamenti.',
+        'requestReceived' => 'La tua richiesta Ã¨ stata ricevuta.',
+        'requestReceivedDescription' => 'Abbiamo ricevuto la tua richiesta e il nostro team risponderÃ  a breve. Puoi accedere all\'helpdesk per esaminare lo stato della tua richiesta, o verificare la posta elettronica per ulteriori aggiornamenti.',
     ],
     'viewTickets' => [
         'title' => 'I miei ticket',
@@ -37,8 +39,8 @@ return [
         'search' => 'Cerca identificativo Ticket',
         'notFound' => 'Ticket non trovato.',
         'ticketID' => 'Vedi Ticket #%id%',
-        'ticketClosed' => 'Ticket è attualmente chiuso.',
-        'replySent' => 'La tua risposta al tickect è stata inviata correttamente.',
+        'ticketClosed' => 'Ticket Ã¨ attualmente chiuso.',
+        'replySent' => 'La tua risposta al tickect Ã¨ stata inviata correttamente.',
     ],
     'account' => [
         'menu' => 'Account',
@@ -46,8 +48,8 @@ return [
         'logout' => 'Logout',
         'general' => 'Generale',
         'changePassword' => 'Cambia password',
-        'profileUpdated' => 'Il tuo profile è stato aggiornato.',
-        'passwordUpdated' => 'La password è stata aggiornata.'
+        'profileUpdated' => 'Il tuo profile Ã¨ stato aggiornato.',
+        'passwordUpdated' => 'La password Ã¨ stata aggiornata.'
     ],
     'form' => [
         'email' => 'Indirizzo email',
@@ -57,8 +59,8 @@ return [
         'search' => 'Cerca',
         'ticketID' => 'Ticket ID',
         'fullName' => 'Nome completo',
-        'department' => 'Dipartimento',
-        'priority' => 'Priorità',
+        'department' => 'Settore',
+        'priority' => 'PrioritÃ ',
         'subject' => 'Oggetto',
         'yourMessage' => 'Messaggio',
         'attachments' => 'Allegati',
@@ -76,28 +78,28 @@ return [
         'existingPassword' => 'Password esistente',
         'confirm' => 'Conferma',
         'save' => 'Salva',
-        'open' => 'Apri',
+        'open' => 'Aperto',
         'answered' => 'Risposto',
         'awaiting_reply' => 'In attesa di risposta',
         'in_progress' => 'In corso',
         'closed' => 'Chiuso',
         'user' => 'Utente',
-        'departments' => 'Dipartimento',
+        'departments' => 'Settore',
         'next' => 'Prossimo'
     ],
     'error' => [
-        'uploadFile' => 'Si è verificato un errore scaricando il file.',
+        'uploadFile' => 'Si Ã¨ verificato un errore scaricando il file.',
         'fileNotAllowed' => 'File non consentito.',
-        'fileBig' => 'File troppo grosso. La dimensione massima è %size%',
+        'fileBig' => 'File troppo grosso. La dimensione massima Ã¨ %size%',
         'search' => 'Non abbiamo trovato nulla di rilevante abbinato alla tua ricerca.',
         'fileNotFound' => 'File non trovato.',
-        'fileNotFoundMsg' => 'Il file che stai cercando di scaricare non è più disponibile.',
+        'fileNotFoundMsg' => 'Il file che stai cercando di scaricare non Ã¨ piÃ¹ disponibile.',
         'enterFullName' => 'Inserisci il tuo nome completo.',
         'enterValidEmail' => 'Inserisci un indirizzo email valido.',
-        'emailUsed' => 'L\'indirizzo email è già associato ad un altro utente.',
+        'emailUsed' => 'L\'indirizzo email Ã¨ giÃ  associato ad un altro utente.',
         'enterSubject' => 'Inserisci l\'oggetto.',
         'enterYourMessage' => 'Inserisci il messaggio',
-        'selectValidDepartment' => 'Seleziona un dipartimento.',
+        'selectValidDepartment' => 'Seleziona un settore.',
         'invalidCaptcha' => 'ERRORE: veriifica CAPTCHA fallita.',
         'emailNotFound' => 'Email non trovata.',
         'invalidEmailPassword' => 'Indirizzo email o password non valido.',
@@ -105,10 +107,10 @@ return [
         'enterExistingPassword' => 'Inserisci la tua password corrente.',
         'enterNewPassword' => 'Inserisci la nuova password.',
         'passwordsNotMatches' => 'La nuova password non combacia.',
-        'wrongExistingPassword' => 'La tua password corrente non è valida.'
+        'wrongExistingPassword' => 'La tua password corrente non Ã¨ valida.'
     ],
     '404' => [
         'title' => 'Pagina non trovata - 404',
-        'body' => 'Oops, la pagina è stata rimossa o è temporaneamente non disponibile.',
+        'body' => 'Oops, la pagina Ã¨ stata rimossa o Ã¨ temporaneamente non disponibile.',
     ]
 ];
